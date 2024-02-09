@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Aniket Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/c33b622f2a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- -----------------------Preloader------------------------- -->
+    <div id="preloader"></div>
+
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+      
+        <div class="header-text">
+          <p><h2> Hello</h2></p>
+          <h1>Hi I am <span>Aniket</span> <br /> </h1>
+          <span id="element"></span>
+
+
+        </div>
+      </div>
+    </div>
+    <!-- <main>
+      <section class="firstSection">
+        <div class ="rightSection">
+          <img src="png.jpg" alt="" > </div>
+      </section>
+    </main> -->
+    <!-- ---------------------------------about--------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1"><img src="images.jpeg" id="photo" /></div>
+          <div class="about-col-2">
+            <h3 class="sub-title">ABOUT ANIKET's</h3>
+            <p>
+              <!-- A highly motivated and hardworking individual looking for a
+              responsible role in a reputable organization. Quality conscious
+              and enthusiastic in learning new things with target-oriented
+              approach following timelines -->
+              <h2> A   Passionate and Hardworking that individual looking for the Role that can handle Resposibilities in organization.
+                Always eager to learn New Tech And exploring new Category of Tech with Target oriented to Approach Following Deadlines.</h2>
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Frontend</span><br />Developer with ReactJS & Next.js</li>
+                <li><span>MERN Stack</span><br />Developer</li>
+                <li><span>Database</span><br />With DBMS</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2021-2023</span><br />M.sc From R.T.M.N.U University Nagpur Maharashtra. 
+                
+                </li>
+                <li>
+                  <span>2017-2020</span><br /> B.sc From R.T.M.N.U University Nagpur Maharashtra. 
+                  
+                </li>
+                <li>
+                  <span>2015-2017</span><br /> Higher Secondery Education From N.P.K Vidyalaya SalKoli.
+          
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Aug 2023- current</span><br /> Associate Full Stack Developer
+                   at Almabetter
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -----------------------------services------------------------- -->
+
+    <!-- <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-brands fa-react"></i>
+            <h2>Frontend Development</h2>
+            <p>
+              Frontend developer with React JS with Bootstrap,Tailwind CSS,React
+              Hook,React-Redux and Redux-toolkit.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Full Stack Developer</h2>
+            <p>
+              Full Stack development with MERN Stack with Hands on experience on
+              ReactJS.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-link"></i>
+            <h2>WEB 3.0</h2>
+            <p>Web 3.0 with Solidity ,React dApp, Metamask</p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- -----------------------Portfolio------------------------ -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="textresolvefine.jpg" alt="" />
+            <div class="layer">
+              <h3>Text Resolve</h3>
+              <p>
+                "In Text Resolve You can simply change youre text Different Formate Like 
+                You can Copy ,Remove ,convert into Uppper case To lower case and you can Also Count the word 
+                and What need time to read that text that time will also shown "
+              </p>
+              <a href="https://github.com/Aniket3199/textresolve/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="upDateNewspic.png" alt="" />
+            <div class="layer">
+              <h3>UpToDateNews</h3>
+              <p>
+                The app connect you to Daily updated News within single Click.
+              </p>
+              <a href="https://github.com/Aniket3199/uptodatenews"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="asset/images/work-3.jpg" alt="" />
+            <div class="layer">
+              <h3>Cryptocurrency  Analyzer</h3>
+              <p>
+                This App will shown updated Price of Cryptocurrency
+              </p>
+              <a href=""
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/Aniket3199" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!-- -----------------------------------Contact Info----------------------------------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <div class="sub-title">Connect With Me</div>
+            <p><i class="fa-solid fa-envelope"></i> anitembhurne31@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>8806****39 </p>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/aniket_31t/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+              <a
+                href="https://www.linkedin.com/in/aniket-tembhurne-2539a3192"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/Aniket3199"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <a href="asset/ANIKET TEMBHURNE.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="example@email.com"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright © Aniket <i class="fa-sharp fa-solid fa-font"></i>
+           || All Rights reservered
+        </p>
+      </div>
+    </div>
+<!-- annimation -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: [' I Am ','Software Developer', 'Web Designer', ' I Am Web Developer',],
+      typeSpeed: 50,
+    });
+  </script>
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+  </body>
+</html>
